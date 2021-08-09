@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DEA21BC26A43AF500401BBB /* Saufapp_by_chrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA21BB26A43AF500401BBB /* Saufapp_by_chrisApp.swift */; };
+		1DEA21BE26A43AF500401BBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA21BD26A43AF500401BBB /* ContentView.swift */; };
+		1DEA21C026A43AF800401BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA21BF26A43AF800401BBB /* Assets.xcassets */; };
+		1DEA21C326A43AF800401BBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEA21C226A43AF800401BBB /* Preview Assets.xcassets */; };
+		1DEA21CE26A43AF800401BBB /* Saufapp_by_chrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA21CD26A43AF800401BBB /* Saufapp_by_chrisTests.swift */; };
+		1DEA21D926A43AF800401BBB /* Saufapp_by_chrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA21D826A43AF800401BBB /* Saufapp_by_chrisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DEA21CA26A43AF800401BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEA21B026A43AF500401BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEA21B726A43AF500401BBB;
+			remoteInfo = "Saufapp by chris";
+		};
+		1DEA21D526A43AF800401BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEA21B026A43AF500401BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEA21B726A43AF500401BBB;
+			remoteInfo = "Saufapp by chris";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEA21B826A43AF500401BBB /* Saufapp by chris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saufapp by chris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEA21BB26A43AF500401BBB /* Saufapp_by_chrisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saufapp_by_chrisApp.swift; sourceTree = "<group>"; };
+		1DEA21BD26A43AF500401BBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DEA21BF26A43AF800401BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DEA21C226A43AF800401BBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DEA21C426A43AF800401BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEA21C926A43AF800401BBB /* Saufapp by chrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saufapp by chrisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEA21CD26A43AF800401BBB /* Saufapp_by_chrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saufapp_by_chrisTests.swift; sourceTree = "<group>"; };
+		1DEA21CF26A43AF800401BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEA21D426A43AF800401BBB /* Saufapp by chrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saufapp by chrisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEA21D826A43AF800401BBB /* Saufapp_by_chrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saufapp_by_chrisUITests.swift; sourceTree = "<group>"; };
+		1DEA21DA26A43AF800401BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DEA21B526A43AF500401BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA21C626A43AF800401BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA21D126A43AF800401BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D17596426C1AE0700F5E6EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA21BD26A43AF500401BBB /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DEA21AF26A43AF500401BBB = {
+			isa = PBXGroup;
+			children = (
+				1DEA21BA26A43AF500401BBB /* Saufapp by chris */,
+				1DEA21CC26A43AF800401BBB /* Saufapp by chrisTests */,
+				1DEA21D726A43AF800401BBB /* Saufapp by chrisUITests */,
+				1DEA21B926A43AF500401BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DEA21B926A43AF500401BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA21B826A43AF500401BBB /* Saufapp by chris.app */,
+				1DEA21C926A43AF800401BBB /* Saufapp by chrisTests.xctest */,
+				1DEA21D426A43AF800401BBB /* Saufapp by chrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DEA21BA26A43AF500401BBB /* Saufapp by chris */ = {
+			isa = PBXGroup;
+			children = (
+				1D17596426C1AE0700F5E6EC /* Views */,
+				1DEA21BB26A43AF500401BBB /* Saufapp_by_chrisApp.swift */,
+				1DEA21BF26A43AF800401BBB /* Assets.xcassets */,
+				1DEA21C426A43AF800401BBB /* Info.plist */,
+				1DEA21C126A43AF800401BBB /* Preview Content */,
+			);
+			path = "Saufapp by chris";
+			sourceTree = "<group>";
+		};
+		1DEA21C126A43AF800401BBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA21C226A43AF800401BBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DEA21CC26A43AF800401BBB /* Saufapp by chrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA21CD26A43AF800401BBB /* Saufapp_by_chrisTests.swift */,
+				1DEA21CF26A43AF800401BBB /* Info.plist */,
+			);
+			path = "Saufapp by chrisTests";
+			sourceTree = "<group>";
+		};
+		1DEA21D726A43AF800401BBB /* Saufapp by chrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEA21D826A43AF800401BBB /* Saufapp_by_chrisUITests.swift */,
+				1DEA21DA26A43AF800401BBB /* Info.plist */,
+			);
+			path = "Saufapp by chrisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DEA21B726A43AF500401BBB /* Saufapp by chris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEA21DD26A43AF800401BBB /* Build configuration list for PBXNativeTarget "Saufapp by chris" */;
+			buildPhases = (
+				1DEA21B426A43AF500401BBB /* Sources */,
+				1DEA21B526A43AF500401BBB /* Frameworks */,
+				1DEA21B626A43AF500401BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Saufapp by chris";
+			productName = "Saufapp by chris";
+			productReference = 1DEA21B826A43AF500401BBB /* Saufapp by chris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DEA21C826A43AF800401BBB /* Saufapp by chrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEA21E026A43AF800401BBB /* Build configuration list for PBXNativeTarget "Saufapp by chrisTests" */;
+			buildPhases = (
+				1DEA21C526A43AF800401BBB /* Sources */,
+				1DEA21C626A43AF800401BBB /* Frameworks */,
+				1DEA21C726A43AF800401BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DEA21CB26A43AF800401BBB /* PBXTargetDependency */,
+			);
+			name = "Saufapp by chrisTests";
+			productName = "Saufapp by chrisTests";
+			productReference = 1DEA21C926A43AF800401BBB /* Saufapp by chrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DEA21D326A43AF800401BBB /* Saufapp by chrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEA21E326A43AF800401BBB /* Build configuration list for PBXNativeTarget "Saufapp by chrisUITests" */;
+			buildPhases = (
+				1DEA21D026A43AF800401BBB /* Sources */,
+				1DEA21D126A43AF800401BBB /* Frameworks */,
+				1DEA21D226A43AF800401BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DEA21D626A43AF800401BBB /* PBXTargetDependency */,
+			);
+			name = "Saufapp by chrisUITests";
+			productName = "Saufapp by chrisUITests";
+			productReference = 1DEA21D426A43AF800401BBB /* Saufapp by chrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DEA21B026A43AF500401BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1DEA21B726A43AF500401BBB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1DEA21C826A43AF800401BBB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1DEA21B726A43AF500401BBB;
+					};
+					1DEA21D326A43AF800401BBB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1DEA21B726A43AF500401BBB;
+					};
+				};
+			};
+			buildConfigurationList = 1DEA21B326A43AF500401BBB /* Build configuration list for PBXProject "Saufapp by chris" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DEA21AF26A43AF500401BBB;
+			productRefGroup = 1DEA21B926A43AF500401BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DEA21B726A43AF500401BBB /* Saufapp by chris */,
+				1DEA21C826A43AF800401BBB /* Saufapp by chrisTests */,
+				1DEA21D326A43AF800401BBB /* Saufapp by chrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DEA21B626A43AF500401BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA21C326A43AF800401BBB /* Preview Assets.xcassets in Resources */,
+				1DEA21C026A43AF800401BBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA21C726A43AF800401BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA21D226A43AF800401BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DEA21B426A43AF500401BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA21BE26A43AF500401BBB /* ContentView.swift in Sources */,
+				1DEA21BC26A43AF500401BBB /* Saufapp_by_chrisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA21C526A43AF800401BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA21CE26A43AF800401BBB /* Saufapp_by_chrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEA21D026A43AF800401BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEA21D926A43AF800401BBB /* Saufapp_by_chrisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DEA21CB26A43AF800401BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEA21B726A43AF500401BBB /* Saufapp by chris */;
+			targetProxy = 1DEA21CA26A43AF800401BBB /* PBXContainerItemProxy */;
+		};
+		1DEA21D626A43AF800401BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEA21B726A43AF500401BBB /* Saufapp by chris */;
+			targetProxy = 1DEA21D526A43AF800401BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEA21DB26A43AF800401BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DEA21DC26A43AF800401BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DEA21DE26A43AF800401BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Saufapp by chris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Saufapp by chris/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "whitecisman.Saufapp-by-chris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEA21DF26A43AF800401BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Saufapp by chris/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Saufapp by chris/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "whitecisman.Saufapp-by-chris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEA21E126A43AF800401BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Saufapp by chrisTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "whitecisman.Saufapp-by-chrisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saufapp by chris.app/Saufapp by chris";
+			};
+			name = Debug;
+		};
+		1DEA21E226A43AF800401BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Saufapp by chrisTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "whitecisman.Saufapp-by-chrisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saufapp by chris.app/Saufapp by chris";
+			};
+			name = Release;
+		};
+		1DEA21E426A43AF800401BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Saufapp by chrisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "whitecisman.Saufapp-by-chrisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Saufapp by chris";
+			};
+			name = Debug;
+		};
+		1DEA21E526A43AF800401BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Saufapp by chrisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "whitecisman.Saufapp-by-chrisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Saufapp by chris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEA21B326A43AF500401BBB /* Build configuration list for PBXProject "Saufapp by chris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEA21DB26A43AF800401BBB /* Debug */,
+				1DEA21DC26A43AF800401BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEA21DD26A43AF800401BBB /* Build configuration list for PBXNativeTarget "Saufapp by chris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEA21DE26A43AF800401BBB /* Debug */,
+				1DEA21DF26A43AF800401BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEA21E026A43AF800401BBB /* Build configuration list for PBXNativeTarget "Saufapp by chrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEA21E126A43AF800401BBB /* Debug */,
+				1DEA21E226A43AF800401BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEA21E326A43AF800401BBB /* Build configuration list for PBXNativeTarget "Saufapp by chrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEA21E426A43AF800401BBB /* Debug */,
+				1DEA21E526A43AF800401BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DEA21B026A43AF500401BBB /* Project object */;
+}
